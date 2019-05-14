@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terich Mir"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/terichmir"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Tirich Mir (alternatively Terich Mir, Terichmir and Turch Mir) is the highest mountain of the Hindu Kush range, and the highest mountain in the world outside of the Himalayas-Karakoram range, located in Khyber Pakhtunkhwa, Pakistan. The mountain was first climbed in 1950 by a Norwegian expedition."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shandur pass"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/shandurpass"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The world famous Shandur Pass is about 3738 m above sea level and lies midway between Chitral and Gligit. The distance from both Chitral and Gilgit is about 168 km. These areas remain snow- clad in winter and turn into a green heaven during summer. There is a big lake in the area. One can approach the Shandur."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shahndor Polo Ground"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/shandurpologround"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Shandur  is situated at an altitude of 12,500 feet (38000 meters) above sea level is famous for having the highest polo ground of world. It is sometimes called Roof of the World. It is located in District Ghizer, Gilgit–Baltistan, Pakistan."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

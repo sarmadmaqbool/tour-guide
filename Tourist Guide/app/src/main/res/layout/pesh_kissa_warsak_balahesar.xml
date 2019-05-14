@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kissa Khwani Bazaar"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/qissakhawani"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Delhi’s Sunday Book Bazaar faces closure by those municipal goons. Surrounded as I am by city-block sized Border’s and B&amp;N’s, I forget the pleasures, the sights and the sounds of a book bazaar. Imagine, if you will, a sunday farmer’s market [make them organic farmers for further frisson]. Now substitute all the vegetables and fruits, piled on canvases, stacked on the ground, with books and magazines. And the barter and weighing of literature [that emily brontÎ is so yellowed, you gotta bring the price down].  My favorite bazaar, of course, is in Old Anarkali, Lahore. But, I did spend some time in Hyderabad and Peshawar’s book bazaars. The Peshawar one, especially. Qissa Khawani Bazaar or the Storytellers Market is one of those places that look terribly ordinary unless you peek behind the layers of paper and dust to the history. The standard version of its history is that it was founded by Paolo Avitable, the Italian governor of Peshawar under Raja Ranjit Singh, sometime around 1840. It quickly got the reputation for a place where travelers and traders sat, sipped green tea, ate chapli kababs and told stories. The romance of the bazaar grew as various European narratives begin to circulate [Kipling’s Mahbub Ali sat in the Qissa Khawani bazaar].  I visited it for the first time in ’88. By then, there were no storytellers left in the bazaar. Qissa Khawani was a big, wide sreet with merchants and traffic galore. You could still find the stories, though, if you knew. Right off the main thoroughfare, were quiet alleys and backways that took to shops and merchants who peddled stories. In cassettes by Pashto folk singers, accompanied usually with a rebab, were the stories calledbadalas. The titles were usually accessible to those who knew Persian or Urdu epics – Shirin wa Farhad or Yusuf wa Zulaikha – or who were well-versed in the Pashto epics of resistance [to the British and the Soviets]. One could also buy little pulp books with the stories. The original storytellers may have disappeared but these cassettes [and the texts] are an amazing primary source for this oral tradition. I think the Lok Virsa people have collected these stories."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warsak Dam"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/warsakdam"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Warsak Dam is a mass concrete gravity dam located on the Kabul River approximately 20 km northwest of the city of Peshawar inKhyber Pakhtunkhwa province of Pakistan.  Warsak Dam was completed under the Colombo Plan in two phases and financed by the Canadian Government. The first phase was completed in 1960 and consisted of the construction of the dam. Irrigation tunnels and installation of four power generating units, each of 40 MW capacity with 132 KV transmission system, were also completed in 1960. Two additional generating units of 41.48 MW capacity each were added in 1980-81 in the second phase.  The total installed capacity of the Warsak Dam Hydropower Project is 243 MW. In June 2012, the Pakistan Water and Power Development Authority (WAPDA) decided to add a 375 MW powerhouse to Warsak, which will raise Warsak’s total power generation capacity to 525 MW. No date was given on when the project would be complete.  Germany will loan 40 million euros to Pakistan for the rehabilitation of the Warsak hydroelectric power station built over half a century ago on Kabul River in Khyber Pakhtunkhwa."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bala Hissar fort"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/balahissarfort"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Bala Hissar is one of the most historic places of Peshawar, Khyber Pakhtunkhwa,Pakistan. The word Bala Hissar is from Dari Persian, meaning, “elevated or high fort”. The name was given by the Afghan Pashtun King Timur Shah Durrani (1773–1793), who used the fort as the winter capital of the Afghan Durrani Empire, with the summer capital being in Kabul. The Sikh empire who conquered Peshawar in the early 19th century named it Samir Garh in 1834 but the name did not become popular.  The Fort has been the headquarters of the Frontier Corps since 1949.one wall of fort Bala hissar collapsed on 27 the October in the worst hit earthquake in 2015.  Renowned historian Dr A.H. Dani in his book Peshawar-Historic City of Frontier writes that when Hiuen Tsang, a Chinese traveller, visited Peshawar in 630 AD, he spoke of a “royal residence”.  He says that Chinese word “Kung Shing” used for its significance and is explained as fortified or walled portion of the town in which the royal palace stood.  Hiuen Tsang then makes a separate mention of the city, which was not fortified. This shows that the royal residence formed the nucleus of a Citadel, which must have been further protected by a moat."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

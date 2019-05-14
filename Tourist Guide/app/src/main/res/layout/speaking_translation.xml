@@ -1,0 +1,223 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_ads"
+    android:background="#5d8FC8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12">
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Spinner
+            android:soundEffectsEnabled="true"
+            android:background="@drawable/spinner"
+            android:id="@+id/spr_sst_src"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:paddingLeft="10dp"
+            android:spinnerMode="dropdown" />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:layout_gravity="center">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="To"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"/>
+        </RelativeLayout>
+        <Spinner
+            android:background="@drawable/spinner"
+            android:soundEffectsEnabled="true"
+            android:id="@+id/stt_sp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:paddingLeft="10dp"
+            android:spinnerMode="dropdown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:weightSum="2"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+<FrameLayout
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/mic"
+        android:contextClickable="true"
+        android:clickable="true"
+        android:soundEffectsEnabled="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@drawable/microphone_black_shape"
+        />
+</FrameLayout>
+        </LinearLayout>
+
+    <LinearLayout
+
+        android:weightSum="3"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="2.5"
+            android:id="@+id/audio"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/textview_round"
+            android:layout_margin="5dp"
+            android:fadingEdge="vertical"
+            android:gravity="top"
+            android:hint="Please Speak..."
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/sstspk"
+            android:layout_weight="0.5"
+            android:clickable="true"
+            android:soundEffectsEnabled="true"
+            android:layout_width="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="65dp"
+            android:background="@drawable/megaphone"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+        <Button
+            android:id="@+id/sstIvSend"
+            android:background="@drawable/translation_and_localization"
+            android:clickable="true"
+            android:soundEffectsEnabled="true"
+            android:layout_width="70dp"
+            android:fadingEdge="vertical"
+            android:lines="5"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="3"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_weight="2.5"
+            android:id="@+id/hand_desc"
+            android:hint="Meaning..."
+            android:layout_width="0dp"
+            android:background="@drawable/textview_round"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:fadingEdge="vertical"
+            android:gravity="top"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_weight="0.5"
+            android:clickable="true"
+            android:id="@+id/src_spkhand"
+            android:background="@drawable/megaphone"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:soundEffectsEnabled="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+        <Button
+            android:id="@+id/handshare"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="65dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:soundEffectsEnabled="true"
+            android:layout_height="65dp"
+            android:background="@drawable/share"
+            android:layout_gravity="right"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

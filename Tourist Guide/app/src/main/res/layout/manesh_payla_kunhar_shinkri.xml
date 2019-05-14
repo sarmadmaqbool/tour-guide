@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pyala Lake"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/payllalake"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Pyala Lake is an undeveloped Lake, but it has a lot of significance as it a Bowl shaped lake on the top of the mountain in the district of Jalkhad, on the way to Lulusar Lake from Naran. It needs to be developed so that people can see the beauty which God has created naturally. We get fascinated by the miracles outside our countries; places outside our country amuse us much more and we forget the significance of our very own Pakistan."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kunhar River"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/kunkarlake"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="unhar River, located near Balakot is known for its magnificence and beauty. The river offers great eye-catching scenes which are appreciated by tourists from other cities as well as other countries. All the areas near Balakot side are worth seeing and river Kunhar is included in that region. The river is situated in Khyber Pakhtunkhwa province.  The icy cold water of River Kunhar gives the best feeling to one and tourists from other countries sometimes visit Khyber Pakhtunkhwa only to see this river. Pakistan is a blessed land with various natural landmarks, sceneries and rivers. The tourism rate of the country has increased now due to the presence of various such places."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shinkiari"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/shinkarilake"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Is a Union Council of Mansehra District in the Khyber-Pakhtunkhwa province of Pakistan. The police station was also established before partition at that time Baffa was police chowki of Shinkiri Police Station (thana) and the second police chowki was Battal these both Chowkies have now became police Stations (thanas). Shinkiari is located 18 km north of Mansehra city on the Karakoram Highway, it is located at 34°28’0N, 73°16’60E at an altitude of 1019 metres (3346 feet). Due to its strategic location Shinkiari is also a base for the Pakistan Army and a major stop for people travelling north. Terrain It is famous for cultivating the first tea garden in Pakistan because of its natural environment and terrain."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

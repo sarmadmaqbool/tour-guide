@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="Bahawalpur" />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/bwp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Bahawalpur is said to be the 12th largest city of Pakistan and is situated in Punjab. It was recognized as the capital of a princely state after the Durrani Empire declined. This princely state was founded by Nawab Muhammad Bahawal Khan-II in the early nineteenth century. Later on, Bahawalpur was also given the status of a province. Bahawalpur city used has been historically the hometown and hub of various different Nawabs and rulers of their times.  In the United India, Bahawalpur was called the Rajputana State which is now now Rajhistan in India.     The city is renowned for its many famous palaces which include the like of Noor Mahal, Darbar Mahal Sadiq Ghar Palace, as well as some more ancient fort of Derawar located in the Cholistan Desert and bordering India. The city’s location itself has historical significance as it is situated near the historical and ancient city of Uch as well as close to Harappa, both of which used to be a stronghold of the Delhi Sultanate and Indus Valley Civilisation respectively. The Bahawalpur city also boasts of the one of the very few natural safari parks hat exist in Pakistan, the Lal Suhanra National Park."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Central Library"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/centerlibrary"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="It is housed in a building having fine architectural value. The foundation stone of this building was laid by the then Governor and Viceroy of India Sir Rufus Daniel Issacs on March 8, 1924 to mark the installation of Late Nawab of Bahawalpur, Sir Sadiq Muhammad Khan Abbasi V. The Central Library was established in 1947 in this building. It has a vast collection of books and manuscripts. It is one of the best libraries in Pakistan and visited by students and scholars from within the country and abroad"
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bahawalpur Museum"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/museum"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Bahawalpur has a modest museum having a fine collection of coins, medals, postage stamps of former State of Bahawalpur, manuscripts, documents, inscriptions, wood carvings, camel skin paintings, historical models and stone carving etc. of Islamic and pre-Islamic period. There is a complete set of medals of all classes issued by the ex-state to its military officers/civilians and to other important citizens of the ex-State. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Zoological Garden"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view3"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading3"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/zoo"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view3"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The zoological garden of Bahawalpur is considered to be one of best in the country. Spread over an area of 25 acres of land, it has an interesting collection of 120 animals and 750 birds of tropical areas, particularly those found in this region. The zoo has the distinction of occasional breeding of lions and supply of beasts to other zoos in the country. It also has an aquarium and a good collection of stuffed rare birds and animals."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

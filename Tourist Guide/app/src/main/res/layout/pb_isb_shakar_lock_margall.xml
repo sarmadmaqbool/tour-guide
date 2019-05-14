@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shakarparian"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/shakarparhia"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  Shakarparian (otherwise called Shakarparian Hills) is gotten from two words from the Potohari dialect, Shakar – signifying “sweet”, and Parian from Parao – meaning a spot to rest, or stop over – delay amid long trips. It comprises of a slope and a nearby stop in Islamabad, Pakistan.Park is situated close to the Zero Point Interchange. Pakistan Monument is situated in the Shakarparian. The old Gakhars tribe pioneers settled here before Indo-Pak allotment 1947; later the group was moved to make a recreation center for Newly checked government capital of the nation in 1960-61 "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Lok Virsa Museum"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/lokvirsamuesum"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="ok Virsa Museum is arranged in Islamabad, Pakistan. It shows the social legacy of Pakistani individuals. The living style of the diverse ranges of Pakistan is displayed here in statues, pictures, earthenware, music and material work. Lok Virsa is the finest social historical center in Pakistan.  The Lok Virsa Museum otherwise called the Folk Heritage Museum keep running by the National Institute of Folk and Traditional Heritage speaks to fine arts towards saving the living people and customary culture and specialties of Pakistan. It is situated close Shakarparian Hills and has a vast presentation of weaved outfits, adornments, woodwork, metalwork, square printing, ivory and bone work. Conventional engineering exteriors showing such abilities as fresco, mirror work and marble trim; tile, mosaic and stucco tracery are likewise shown."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Margalla Hills"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/margallahill"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  The Margalla Hills — additionally called the Margalla Mountain Range and basically known as Margalla, is a slope run part of the lesser Himalayas found north of Islamabad, Pakistan. Margalla Range has a zone of 12,605 hectares. The slopes are a piece of Murree slopes. It is a reach with numerous valleys and in addition high mountains.  The slope range settles between a rise of 685 meters at the western end and 1,604 meters on its east with normal stature of 1000 meters. Its most noteworthy top is Tilla Charouni. The reach gets snowfall in winters.  On 6 January 2012, after right around six years, Pir Sohawa, the city’s most astounding visitor spot, got few inches of snowfall. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

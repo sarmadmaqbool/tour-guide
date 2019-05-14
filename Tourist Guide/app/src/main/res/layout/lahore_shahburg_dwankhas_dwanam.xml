@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lahore Fort - Shish Mahal"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/sheshmehal"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The Shish Mahal (Palace of Mirrors) was built for the empress and her court and installed with screens to conceal them from prying eyes. It was constructed by Asif Khan the then governor of Lahore for Emperor Shah Jehan in 1631-32. Embellished with mirror work, stucco tracery, gilding and pietra dura and fretwork in marble, the palace consists of a lofty spacious hall with several rooms behind and on either sides and a vast courtyard in front.  The Shish Mahal is where the Sikh ruler Ranjit Singh constantly displayed his prize possession, the fabulous Kohinoor diamond, and arranged &quot;grand entertainments&quot; for his foreign visitors. It is also the pllace where after the annexation of the Punjab by the British, the sovereignty of the Punjab, along with the Kohinoor diamond, was passed into the hands of the British. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lahore Fort - Shah Burj Gate"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/shahburg"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="In addition to the two main gates giving access to the interior of the fort, is the Shah Burj (Royal Tower) Gate, which was a grand entrance to the private areas of the fort, exclusively for the use of the Emperor. Of particular note as one walks along the ramp (the Hathi Paer, or Elephant Path), is the fine painted tilework of the outer wall, known as the Picture Wall. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lahore Fort - Diwan-i-Khaas"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/diwankhas"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The elegant white marble pavilion dominating Shah Jahan&apos;s Quadrangle is known as Diwan-i-Khas (Hall of Private Audience), and was probably built by Shah Jahan for receiving guests. However, it is also sometimes referred to as Chotti Khhwabgah or Khwabgah-e-Khurd (Minor Sleeping Chamber), although this name may have been given to it during Sikh rule. Changes were made to the building at this time and during British rule; it was reconstructed during the British period restorations, utilizing the original elements, but it is likely that the roof structure was modified during reconstruction. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/main_heading3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lahore Fort - Diwan-i-Aam"
+            android:textSize="25sp"
+            android:gravity="center"
+            />
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/image_view3"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/main_heading2"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/diwanamm"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/image_view3"
+            android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text="The Diwan-i-Aam (Hall of Public Audience) was built by Shah Jahan in 1631, with an upper balcony added by Akbar. It&apos;s where the emperor would make a daily public appearance, receive official visitors and review parades.  Sadly only the columns and footprint are original, the arches and roof being a British-era reconstruction. "
+            android:textSize="18sp"
+            />
+</RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

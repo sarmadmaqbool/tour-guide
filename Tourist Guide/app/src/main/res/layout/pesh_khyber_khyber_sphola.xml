@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khyber Pass"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/khyberpass"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The Khyber Pass (elevation: 1,070 m or 3,510 ft) is a mountain passconnecting Afghanistan and Pakistan, cutting through the northeastern part of the Spin Ghar mountains. An integral part of the ancient Silk Road, it is one of the oldest known passes in the world. Throughout history it has been an important trade routebetween Central Asia and South Asia and a strategic military location. The summit of the pass is 5 kilometres (3.1 mi) inside Pakistan at Landi Kotal.  Well known invasions of the area have been predominantly through the Khyber Pass, such as the invasions by Darius I andAlexander the Great and also include Genghis Khan and later Mongols such as Duwa, Qutlugh Khwaja and Kebek. Among theMuslim invasions of South Asia, the famous invaders coming through the Khyber Pass are Mahmud Ghaznavi, and the AfghanMuhammad Ghori and the Turkic-Mongols. Finally, Sikhs under Ranjit Singh captured the Khyber Pass in 1798. Hari Singh Nalwa, who manned the Khyber Pass for years, became a household name in Afghanistan.Afghan chiefs and a British political officer posed at Jamrud fort at the mouth of the Khyber Pass in 1878.  To the north of the Khyber Pass lies the country of the Mullagori tribe. To the south is Afridi Tirah, while the inhabitants of villages in the Pass itself are Afridi clansmen. Throughout the centuries thePashtun clans, particularly the Afridis and the Afghan Shinwaris, have regarded the Pass as their own preserve and have levied a toll on travellers for safe conduct. Since this has long been their main source of income, resistance to challenges to the Shinwaris’ authority has often been fierce."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khyber Train"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/khybertrain"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The Khyber Mail  is a daily express train between Karachi and Peshawar in Pakistan. The train is named after the famous Khyber Pass located in the province of Khyber Pakhtoonkhwa in Pakistan. It is Pakistan’s oldest and most prestigious train which is continuously running since 1947, soon after the independence of Pakistan.  Khyeber Mail is a Pakistan express train. Khyber mail run between Peshawar to Karachi cant daily . It is Pakistan’s oldest and most prestigious train which is continuously running since 1947 . Khyber mail 1 up and 2 down complete fare table. Khyber mail train economy class fare and ticket price of all major railway station.  Detailed fare and ticket price information about Kheyber Mail express from Karachi to Peshawar and all station between them. Khyber Mail train fare of seat and berth of economy class to all stations"
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sphola stupa"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/soholastupa"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  Photograph of the Buddhist monument Sphola Stupa in the Khyber Pass. The monument is on a high rocky ledge and consists of a stone mound supported by a tiered base. Large sections of the stone have fallen away, particularly to the right of the mound. A man is standing on the top of the mound, and another man is standing on a pile of rubble to the right. There is a valley beyond with steep mountains rising behind it.  The photographer John Burke travelled with the Peshawar Valley Field Force during the Second Anglo-Afghan War (1878-80), one of a series of conflicts between Britian and Russia over control of Afghanistan. His images from the war capture landscapes, key strategic sites and soldiers involved in the conflict. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

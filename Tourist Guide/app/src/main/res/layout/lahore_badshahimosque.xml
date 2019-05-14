@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Badshahi Masjid - The Royal Mosque"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/badshahimosque"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Great Badshahi Mosque (Royal Mosque) was built in 1673 by the great Mughal Emperor Aurangzeb Alamgir who ruled india from 1658 to 1707 AD. This mosque is built with Red Stone. Construction is very unique Eastern type. It remained the largest Mosques in the world for more than 300 years (Since its construction in 1673 till 1986) when Shah Faisal Mosque, Islamabad, Pakistan became largest mosque. Now it is Second Largest Mosque in Pakistan &amp; 5th Largest in the world. It can accommodate 100,000 worshipers at a time.  It is situated near Minar-e-Pakistan and in fornt of Shahi Qila (Royal Forte).  Its design is a mixture of Islamic, Indian, Persian &amp; Central Asia design. It resembles with Jama Masjid Dehli (India), which was built by Emperor Shah Jahan (Aurngzeb Alamgir&apos;s Father). Badshahi Mosque is larger than Jama Masjid Dehli. One should must see this beautiful Mosque. It contains a lot of interest for Architecture students.  There is a small museum inside the main Entrance, on first floor of Eastern Corridor, established by Government of Pakistan. It contains relics of Prophet Muhammad SAW, his Son in Law Hazrat Ali RA &amp; daughter Hazrat Farima RA."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Naran ‎Town"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/naran"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Naran ‎ is a medium sized town in upper Kaghan Valley in Mansehra District of Khyber Pakhtunkhwa province of thePakistan. It is located 119 kilometers."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Saiful Muluk"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/saifulmaluk"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Saiful Muluk is a mountainous lake located at the northern end of the Kaghan Valley, near the town of Naran.It is in the north east of Mansehra District in the Khyber-Pakhtunkhwa province, Pakistan. At an elevation of 3,224 m (10,578 feet) above sea level, it is well above the tree line, and is one of the highest lakes in Pakistan.  Saiful Muluk is located in the Mansehra district of Khyber Pakhtunkhwa, about eight kilometers north of Naran, in the northern part of Kaghan valley. Malika Parbat, the highest peak in the valley is near the lake.  The lake is accessible from the nearby town of Naran throughout the summer season."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lalazar"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/lalazar"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  Lalazar is a tourist spot situated 21 km from Naran in Kaghan Valley, Pakistan. It is located at the height of 10,499 feet (3,200 meters).A rare view of LalazarPotato fields in Lalazar. Lalazar is a lush green meadow with full of wild flowers and pine and fir forest. The road to Lalazar is a typical Pakistani mountain road, with hills on one side and a deep khud (valley) on the other side. The only difference was that the khud is the Kunhar River. Lalazar is a place where one would enjoy camping. It is a must-see when visiting the Kaghan Valley and attracts lots of visitors every year. Its great beauty is highly appreciated, and people go to see its beautiful wildlife. It is also a full day trip like Saiful Maluk. On a clear sunny day, its possible to view the snow-covered peak of “Falak Sonia” from Lalazar. This peak has also got a fairy tale story in its background, like most of the other places in Kaghan Valley. You may also see the River Kunhar flowing roughly thousands of miles below the altitude you would be standing. It is accessible by a jeep track from Naran via Battakundi. Lalazar is situated on the other end of Lake Saiful Muluk, over the mountain; a small resort worth visiting. A large green plateau gives a lovely view of the valley below. The place can be reached through the deadliest track on jeep with several twists and turn. For hiker lovers, there is another track, a 5-hour hike, over a mountain pass from Lake Saiful Muluk. You may find a guide. One can get a chance to see the rare wildlife variety of “Markhoor” on this track during the months of October and November. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

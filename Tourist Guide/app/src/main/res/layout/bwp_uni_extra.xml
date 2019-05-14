@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:text="Islamia University" />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/islamia"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The Islamia University of Bahawalpur (IUB) is located in Bahawalpur,Punjab. A religious University (Jamia Abbasia) was established in Bahawalpur in 1925, following the academic pursuits of Jamia Al-Azhar, Egypt. Jamia Abbasia was declared as a general University in 1975, and was renamed as The Islamia University of Bahawalpur. Initially, it started functioning at Abbasia and Khawaja Fareed Campuses.Later, a new campus,on 1250 acres of land, was constructed at Hasilpur Road about 8 km away from the city centre. It is known as Baghdad-ul-Jadeed Campus.  Two campuses of Islamia University were established at Rahim Yar Khan and Bahawalnagar in 2005."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dring Stadium"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/dring"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The Bahawalpur Stadium, locally known as Dring Stadium, is a multi-purpose stadium used mostly for Cricket games. The stadium has a capacity of 15,000 people. It hosted the second Test of Indian cricket team in 1954-55 during India’s inaugural tour of Pakistan. However, this was the only international Test match to be held at this ground."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Derawar Fort, Bahawalpur"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/dwrawar"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Derawar Fort is located 45 km south of Dera Nawab.  The first fort on the site was built by Hindu Rajput, Rai Jajja Bhatti of Jaisalmer. It was captured and completely rebuilt by the nawabs of Bahawalpur in 1733. In 1747, the fort slipped from the hands of the Abbasis owing to Bahawal Khan’s preoccupations at Shikarpur. Nawab Mubarak Khan took the stronghold back in 1804.  The forty bastions of Derawar are visible for many miles in Cholistan Desert. The walls of the fort are 30 metres high with a circumference of 1.5 km. The mosque outside the fort is made of marble. It was built on the exact lines of the Moti Masjid in the Red Fort of Delhi (India). The fort is still the property of the Abbasi family and one has apply to the Bahawalpur PTDC to request a permit from Abbasi family. It takes a week for getting the permit. There is a royal necropolis ( Graveyard), five-minute walk to the east. Its tombs are adorned with exquisite blue tiles but it’s not open to visitors unless they are accompanied by a member of the Abbasi family."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hiran Minar"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/hiranminar"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  Mughal Emperor enjoyed hunting in the area around Shiekhupura, where in 1616, he built himself a hunting pavillion in the centre of an artificial lake and a tower, the Hiran Minar, in memory of his pet deer. Three years later he built a massive brick fort in Shiekhupura, which still stands today( about 19 miles from Lahore) HIRAN MINAR.... "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shrine of Guru Arjan Dev"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/guru"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="It is built by Maharaja Ranjit Singh in the memory of Guru Arjan Dev the fitth Gikh Guru who compiled the Adi Granth, the principal part of Sikh scriptures. Guru Arjan Dev was put in confinement for having collaborated with Prince Khusrov, the rebellious son of Emperor Jehangir. His followers assert tht it is the same spot where Guru Arjan Dev miraculously disappeared in 1606 A.D. in the waters of river Ravi."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Great Mughal Gardens -UNESCO World Heritage Site"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/mughul"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The Shalamar Garden, also written Shalimar Garden, was built by the great Mughal emperor Shah Jahan. Construction began in 1641 A.D. and was completed in a year.  Shalamar Garden is a great example of Mughal architecture. Covered area of garden is approx. 80 acres surrounded by a high wall of brick work. There are three successive terraces in the middle of the garden, raised one above the level of the other by a height of 12 or 15 feet (4 or 5 m). These terraces were named as:  1. Farah Baksh means Bestower of Pleasure. (Upper Terrace) 2. Faiz Baksh means Bestower of Goodness. (Middle Terrace) 3. Hayat Baksh means Bestower of life. (Lower Terrace)  A canal joins the middle terrace into a large marble basin. From this basin and from the canal, rise 450 fountains which throw up water that is subsequently received into marble tanks. The channels of water that weave through the whole garden are fed by this canal. The gardens contain white marble buildings in typical Shah Jahani style.  The Shalimar Garden was gifted by King to &quot;Mian&quot; family and remained under this family more than 350 years, till then were among the best preserved Mughal gardens. It has been included in the UNESCO World Heritage Sites List along with Royal Fort of Lahore. in danger. The site has been listed as Endangered since 2000. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

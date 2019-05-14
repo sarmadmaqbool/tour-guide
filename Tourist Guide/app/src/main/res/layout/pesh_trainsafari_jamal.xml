@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khyber train safari"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/khybertrainsafari"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The Khyber train safari was a tourist train which ran between Peshawar and Landi Kotal through the Khyber Pass in Khyber Agency,Pakistan. The railway was closed in 2006 due to washing away of railway track and bridges by flood.  The Khyber train safari had been described as “a journey into time and history.” The train consisted of one parlour car and two second class coaches pulled by two vintage steam locomotives that took tourists through rugged mountainous terrain. The train covered a total of 52 kilometres (32 mi) through 34 tunnels and 92 bridges and culverts. The 1920s model vintage oil-fired steam engines, which pushed and pulled the carriages from the rear and front, were built by Vulcan Foundry and by Kitson &amp; Co in the United Kingdom. The steam safari climbed more than 1,200 m (3,900 ft) to reach Landi Kotal. One of the unusual features of this train journey is that its path passes through the Peshawar Airport runway. (Other examples can be found at Manakara Airport in Madagascar and Gisborne Airport in New Zealand.  The train was run on the first Sunday of every month and on charter. The local population was allowed free rides."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jamal Garhai"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/jamalghari"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  Jamal Garhai is ancient Gandharan site located 13 kilometers from Mardan in Khyber Pakhtunkhwa province in northern Pakistan. Jamal Garhi was a Buddhist monastery from the first until the fifth century AD at a time when Buddhism flourished in this part of theIndian subcontinent.There is a beautiful monastery and main stupa,surrounded by chapels closely packed together.  The ruins of Jamal Garhi were first discovered by the British explorer and archaeologist Sir Alexander Cunningham in 1848. Thestupa at the site was opened by Colonel Lumsden but little of value was found at the time. In 1871, the site was excavated by Lieutenant Cromten who unearthed a large number of Buddhist sculptures which are now part of the collections of the British Museum[2] and the Indian Museum in Calcutta. At the monastery a Kharoshti inscription was also discovered which is now kept in Peshawar Museum. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

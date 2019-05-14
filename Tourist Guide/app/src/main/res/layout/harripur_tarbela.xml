@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarbela Dam"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/harripurterbala"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Tarbela Dam is one of the world’s largest earth and rock filled Dam and greatest water resources development project which was completed in 1976 as a component part of Indus Basin Project. The Dam is built on one of the World’s largest rivers – the Indus known as the “Abbasin” or the father of rivers.  Emerging from the land of glaciers on the northern slopes of Kailash ranges, some 17,000 feet (5182 meters) above sea level, the river Indus has its source near the Lake Mansrowar in the Himalyan catchment area. It flows over 1800 miles (2900 k. metres) before it outfalls into the Arabian sea draining an area of about 372,000 square miles (964,261 sq.kms).  The World Bank accepted Tarbela Dam Project as a part of the Settlement (Replacement) Plan under Indus water treaty in 1965. WAPDA was entrusted with its execution on behalf of the Government of Pakistan. HARZA ENGINEERING COMPANY International who were the General Consultants of WAPDA, carried out the review studies of the Project. In February, 1960 Tippetts – Abbett –  McCarthy – Stratton of USA commonly known as TAMS were appointed the Project Consultants, and were entrusted with the task of investigation, preparation of detailed designs, and contract documents for the project and also the supervision of construction work during its execution."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

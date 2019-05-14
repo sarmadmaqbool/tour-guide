@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kund Park"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/khunpark"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Kund Park (also known as Kund Bear Park), established in 2000, is an animal theme park located in Nowshera, Khyber Pakhtunkhwa, Pakistan. The park is a conservation center and sanctuary for Asian black bears and Himalayan brown bears. It also houses leopards as well as various species of cranes, deer, ducks, parrots, peafowls and pheasants.  The park was established by World Society for the Protection of Animals (Now known as World Animal Protection) after efforts ofFakhar Abbas, president of WSPA member society, Bioresource Research Centre (BRC). Kund ‘Bear’ Park served as a home for anAsian black bear confiscated from a bear baiting event following the enforcement of ban in 2001. By December 2004, the park was a retirement home to seven rescued bears, who could never adapt to life in the wild because as tame bears, they are without teeth.  “We’re the victims of our own success,” said Abbas. “When our monitoring work officially started in 2003 there were around 300 bears used for baiting. Now, by our recent estimates, there are only around 70 left.”In 2010, first of the many enclosures for a new planned Balkasar Bear Sanctuary was finished which was aimed to provide a more “natural” environment for bears to live.  In late July, 2010 Pakistan floods resulted in severe damage at Kund Park. As many as 23 bears that were living in the sanctuary lost when the water rose as high as 60 feet above river level.”By early August 2010, it was reported that Babu, Sohrab and Maylu, three of the bears that were housed at Kund Park, were rescued from the flooded area and safely transported to new sanctuary at Balkasar which was still very much under construction."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Balakot"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/balakot"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Balakot is a subdivision of Mansehra District in the Khyber-Pakhtunkhwa province of Pakistan.  Balakot is the main city of this area. It was one of the towns which was most damaged in the 2005 Kashmir earthquake on 8 October 2005 [1] and an estimated 80% of the buildings there were destroyed. Villages were badly affected and landslides cut off thousands of people from Balakot where relief workers had been helping the survivors.  In 997 CE, Sultan Mahmud Ghaznavi, took over the Ghaznavid dynasty empire established by his father, Sultan Sebuktegin, In 1005 he conquered the Shahis in Kabul in 1005, and followed it by the conquests of Khyber-Pakhtunkhwa. The Delhi Sultanate and later Mughal Empire ruled the region. The Khyber-Pakhtunkhwa region became predominantly Muslim due to missionary Sufi saints whose dargahs dot the landscape of Khyber-Pakhtunkhwa."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shogran"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/shogran"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Shogran is a hill station situated on a green plateau in the Kaghan Valley, northern Pakistan at a height of 7,749 feet or 2,362 metres above sea level.  Shogran is located at a distance of 34 km away from Balakot. The road from Islamabad to Kiwai is metalled and measures 212 km. From Shogran, you can ride a jeep or horse or hike to several picturesque places like Siri, Paye and Makra Peak.  Hotels and motels are available at affordable costs. Mobile phone services is also available there by Telenor and Mobilink. The local people are friendly and peaceful. It is accessible in the summer. It attracts families and explorers alike.You should not miss a trip to Forest Rest House. Most of people sit and relax in its huge lush green lawns. Entry might be restricted when senior officials visit or stay at rest house. Views of Sri Paya and Musa Da Mussalah peak are really nice from the lawns of rest house."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Siri Paya "
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/siripaya"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Siri, Paye Lake is situated near Shogran in the Kaghan Valley in Pakistan. It is situated at the height of almost 3,000 m (10,000 feet). It is surrounded by Makra Peak, Malka Parbat, Moosa da Musalla and the mountains of Kashmir. The lake is accessible via Kiwai passing through Shogran through a jeep track.  When its july, there will be rains every where. Clouds, the rain and the small ponds and rivulets formed on slopes and hollowed spaces on soil, paved or unpaved, create a romance unto themselves, yet the sweat, the vapory environment with a downpour every now and then turns one wet. Hence it’s also the time to run away and seek shelter in some cool, refreshing place where there is no sweat, no “pitch pitch” of the plains, and where there are lakes and mountains to provide peace and freshness to body and soul. So dear readers! let me take you this month to a valley where there are lofty mountains, serene lakes and lush green terraced fields – in the vale of Kaghan.  Sri Paye is a queer, rather funny name, yet this place in a remote corner of Kaghan, six KM away from Shogran has superb views unrivalled by any other place.  Nestled in this valley is a small hamlet called Siri Paye."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

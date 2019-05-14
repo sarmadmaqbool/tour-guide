@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Old Lahore"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/oldlahore"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Old City of Lahore which is also called &quot;Andron-e-Shehr&quot; in local language which means Inner City was fortified by a city wall during Mughal Period. For entering this Castle like City there were 13 gates, which were intact till the British Rule. British Government demolished almost all of the gates to defortify the city. Only Roshnai Gate (Located near Badshahi Masjid, in front of Hazuri Bagh) survived in original shape. Few other gates were rebuilt in simple shape. Now only six gates are operational.  Badshahi Masjid &amp; Royal Fort are also part of old city. But as they have their own strong boundary walls. Therefore we count them separately.  There are several shrines &amp; Havelis (palaces) in the inner city. These havelis reflect the beauty of Mughal and Sikh Architecture. Some of the famous Havelis inside the Walled City are: Mubarak Haveli, Chuna Mandi Havelis, Haveli of Nau Nihal Singh, Nisar Haveli, Haveli Barood Khana, Haveli of Salman Sirhindi. Out of them &quot;Imperial Baths&quot; &amp; &quot;Asif Jah&apos;s Haveli&quot; are prominent. Asif Jah&apos;s Haveli (Palace) is recently restored."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jehangir´s Tomb"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/lahorejahngeer"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Tomb of Mughal Emperor Jahangir (1569 - 1627) is one of the masterpieces of the Mughal Architecture. Mausoleum is located at Shahdara, Lahore in the &quot;Dilkusha Garden&quot;, situated on the North-West bank of River Ravi.  This tomb is one of the most significant buildings of Mughal Period. It is a popular tourist attraction in Lahore. But, as it is outside the Lahore city, still many visitors usually skip this place to visit and thus lose an opportunity to see some of the great Mughal artwork and architecture.  The tomb is a single story square building and is set in a luxuriant &quot;Chaharbagh&quot; (Square garden style). Each corner of the building is surmounted by an octagonal minaret which is structurally attached with main building. Now the area of whole Shahdara complex (Jahangir’s tomb, Akbari Serai and Asif Jah’s tomb) is 100 Acres, out of which area of Jahangir tomb is 59 Acres. The Jahangir’ tomb is approached through a spacious Serai, called Akbari Serai, which is a rectangular enclosure  Noor Jahan, Jahangir&apos;s wife, laid this &quot;Dilkusha Garden&quot; - A garden that pleases heart . According to Jahangir&apos;s last wish he was buried in this garden at Shahdara. Janagir&apos;s son &amp; successor Emperor Shahjahan started construction of his father’s tomb in 1627 and completed in 1637. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Noor Jehan&apos;s Tomb"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/noorjeha"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Noor Jahan (1577 - 1645) was the beloved / favorite Queen of Mughal Emperor Jahangir. She is buried at Shahdara, Lahore in a separate tomb built by herself near her husband&apos;s tomb.  After the death of her husband, Jahangir, she spent most of her time in building his mausoleum &amp; growing its garden (Dilkusha Garden). She has also constructed a tomb over her father&apos;s grave in Agra near Taj Mahal. Later she built her own tomb in Shahdara.  The tomb is a single story structure with no domes or minarets. It has arched hallways. There are two graves in the centre of the tomb. One is the Queen Noor Jahan&apos;s and the other one of her daughter Ladli Begum.  This tomb once had a marble cenotaph which she had built herself during her life time. During the Sikh rule, like all other Mughal buildings, this tomb was also mercilessly plundered and looted of its decorative tiles, marble and red stones. In the British period it remained Coal Store for Railway.  The tomb once laid in ruins, but has been repaired &amp; restored somehow, but couldn&apos;t be gathered back to its original state. Gardens surrounding her tomb &amp; tomb of Jahangir were designed &amp; personally laid out by herself. These gardens are attractive for both local &amp; foreigner travelers. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ansoo Lake"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/ansolake"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Ansoo Lake is situated in Kaghan Valley Mansehra District of the Khyber-Pakhtunkhwa province of Pakistan. It is located near Malika Parbat in the Himalayan range at the altitude of 4,245 meters (13,927 ft). This lake is considered to be one of the most beautiful lakes of the world.The name “Ansoo” comes from its tear-like shape (the Urdu word Ansoo means teardrop). The lake also resembles a human eye with a central ice island resembling the iris and a ridge resembling an eyebrow, which becomes even more prominent when ice melts on the “eyebrow” during the summer. This ridge was partially destroyed.  The lake is said to have been discovered in 1993 by Pakistan Air Force pilots who were flying low in the area. Earlier, the lake was not even known to the locals.  There is no place to stay at Ansoo Lake. Some people may camp on the top of extremely cold and windy mountains but it is very risky and even the locals do not recommend this.  This lake can be reached by two different routes. First one is short but steeper trek from Saiful Mulook Lake. It takes more than 7 hours for a round trip to Ansoo lake starting from lake Saiful Mulook. The trek is covered with snow in most parts of the year. The best time to trek is from July 10 to August 15. The optimal time to set off for the lake from Saiful Mulook is around 06:00 in the morning, in order to return before sunset. Horses and guides can also be hired from the Lake Saiful Mulook."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lulusar Lake"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/lulusurlake"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  Lulusar is group of mountain peaks and a lake in the Kaghan Valley in the Khyber-Pakhtunkhwa province of Pakistan. The word “sar” means “top” or “peak” in Pashto. The highest peak has a height of 11,200 ft (3,410 m) above sea level (N35.0804 E73.9266). The locale is famous for the scenic and large Lulusar Lake, which is a popular tourism attraction.  Lulusar Lake, at 3,410 m (11,190 ft), is the primary headwaters of the Kunhar River.[1] It flows southwest through the entire length of Kaghan Valley passing Jalkhand, Naran, Kaghan, Jared, Paras and Balakot until its confluence with the Jhelum River. Lulusar Lake marks the historic place where fifty-five participants of the 1857 Indian war of independence were arrested.  The lake is much larger than other lakes in the Kaghan Valley, and has mirror-like water reflecting the surrounding snowcapped Lulusar mountains, creating a natural tourist attraction. In the summer many domestic and international visitors make the lake and Lulusar-Dudipatsar National Park a destination. From Gittidas east of the lake the Naran-Babusar road goes through the Babusar Pass, which is the highest point in the Kaghan Valley (el.4,173 metres (13,691 ft)), to the Karakoram Highway and mountaineering hub of Gilgit. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dudipatsar Lake"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/dudipastarlake"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Dudipatsar Lake or Dudipat Lake is a lake encircled by snow clad peaks in Lulusar-Dudipatsar National Park. The lake lies in the extreme north of the Kaghan Valley, in the Mansehra District, Khyber Pakhtunkhwa province, in northern Pakistan. The word “dudi” means white, “pat” means mountains and “sar” means lake. This name has been given to the lake because of the white color of snow at surrounding peaks. In summer the water of the lake reflects like a mirror. The word “sar” is used with the name of each lake in the area, translating as lake.  The lake’s water is a beautiful greenish blue hue and very cold, at an elevation of 3,800 metres (12,500 ft). The surrounding mountains, with snow patches in the shady dales, average around 4,800 metres (15,700 ft) in elevation. Their natural habitat is in the Western Himalayan alpine shrub and meadows ecoregion.The lake and its wetlands habitats are of significant ecological importance for resident fauna and migratory waterfowl. Some of the park’s fauna includes the snow leopard, black bear, marmot, weasel, lynx, leopard, Himalayan snowcock, and snow partridge."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

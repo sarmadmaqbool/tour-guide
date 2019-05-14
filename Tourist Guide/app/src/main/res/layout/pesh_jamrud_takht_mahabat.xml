@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jamrud Fort"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/jamrudfort"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="n October 1836, Jamrud was conquered from the Khyberis by the Sikhs. Sardar Hari Singh Nalwa (1791-1837), the well-known Sikh general, proposed to build a big fort at Jamrud. The proposal was opposed; nevertheless the foundation of the fort that has survived was laid by General Hari Singh Nalwa on 6 Poh 1893 Sambat (18 December 1836) and the construction was completed in 54 days “Jamrud…noted for its fort built with 10 feet (3 m) thick walls c.1836 by the Sikh Hari Singh Nalwa, one of Ranjit Singh’s generals, was originally named Fatehgarh to commemorate the Sikh victory over the disunited tribes.  Early in 1837, Maharaja Ranjit Singh’s (1790-1839) grandson Prince Nau Nihal Singh was to be married. Hari Singh Nalwa sent his forces to Lahore for this historic celebration. At this time, Mr Fast, an Englishman, previously in the service of the British India Government, passed through Jamrud on his way to Kabul. En route he encountered Mohammad Akbar Khan, son of Dost Mohammad Khan. When Akbar Khan learnt that the fort at Jamrud was unprotected, he decided to attack. The battle between the Afghans and the Sikhs was fought on 30 April 1837. The loss suffered in this battle by the Sikhs was indeed heavy. Hari Singh Nalwa had sent out an appeal for help to the Maharaja to dispatch reinforcements from Lahore post haste, however his letter was not forwarded to the Maharaja by the Dogra chiefs. Reinforcements could not reach in time and Nalwa laid down his life in the battlefield."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Takht Bhai"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/takhtbhai"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Takht-i-Bhai (also spelled Takht Bahi, Takht Bhai or Takh Bay) is a Parthian archaeological site in Mardan, Khyber-Pakhtunkhwa, Pakistan. It was first a Zoroastrian complex which, after the later arrival of Buddhism, was then converted into aBuddhist monastic complex. It is dated to the 1st century BCE. The complex is regarded by archaeologists as being particularly representative of the architecture of Buddhist monastic centers from its era. It was listed as a UNESCO World Heritage Site in 1980.The word Takht-i-Bahi may have different explanations. Local believes that site got its name from two wells on the hill or the springs nearby. In Persian, Takht means “top” or “throne” while bahi means “spring” or “water”. When combined together its meaning is Spring from the Top or High Spring, and there were two springs on the top of mountains. Another meaning suggested is Throne of Origin."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mahabat Khan Mosque"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/mahabatkhan"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  The Mahabat Khan Mosque  is a 17th-century mosque in Peshawar, Khyber Pakhtunkhwa, Pakistan. It is named after the Mughal governor of Peshawar Nawab Mahabat Khan who served under Emperors Shah Jehan and Aurangzeb and who was the grandson of Nawab Dadan Khan (a former governor of Lahore). The name of the Masjid and the governor who built is often mispronounced as ‘Muhabbat Khan’ (‘Love Khan’) by the public majority instead of the correct pronunciation ‘Mahabat Khan’ (‘Awe-inspiring Khan’).  The Mosque was built in 1630. Its open courtyard has a centrally-located ablution pool and a single row of rooms lining the exterior walls. The prayer hall, flanked by two tall minarets, occupies the west side. According to the turn-of-the-century Gazetteer for Pakhtunkhwa, the minarets were frequently used in Sikh times ‘as a substitute for the gallows’.Mahabat Khan Mosque The interior of the prayer hall is sheltered beneath three low, fluted domes and is eloquently painted with floral and geometric designs. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

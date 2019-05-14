@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chakdara Museum"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/chkdaramuesum"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="The most important site in Chakdara is Damkot Hill. The top of Damkot Hill has been excavated and houses with pottery and jewellery have been discovered. These items are now displayed in the Saidu Sharif Museum.  At the foot of Damkot Hill at Salami there is an early graveyard. Early settlers buried partially cremated bodies surrounded by everyday utensils. The graves were sealed by large stone slabs.  A Buddhist stupa and monastery of the first century AD were excavated by Ahmad Hasan Dani in 1962-65. There are some Buddhist carvings at the foot of the hill. During the Hindu Shahi period a fort was built here which was destroyed in the 11th century. In the 19th century the British occupied this hill. Behind Damkot Hill at Chat Pat is the site of a monastery of the late 4th century. The sculpture from this monastery is displayed in Chakdara MuseuAlladun Dheri, an important Buddhist site, is located 7 km north of Chakdara Bridge near the village of Uchh. According to the Buddhist pilgrim Xuanzang this site was connected with a legend about Buddha. According to the legend, Buddha changed himself into a great serpent lying dead in the valley in order to save the people from famine. The starving people cut pieces from the body and fed themselves.According to another tradition, Gandhāra is also thought to be the location of the mystical Lake Dhanakosha, birthplace of Padmasambhava, founder of Tibetan Buddhism. TheKagyu sect of Tibetan Buddhism identifies the lake with the Alladun Dheri stupa. A spring was said to flow from the base of the stupa to form the lake. Archaeologists have found the stupa but no spring or lake can be identified. Alladun Dehri Stupa was excavated by Dani. Over 500 pieces of Gandhara sculpture were recovered.Three kilometers from Alladun Dheri Stupa there is the Hindu Shahi fort of Kamal Khan China. It is now in ruins. From this fort a track leads to Nimogram Buddhist Monastery and Stupa. It has three main stupas, which identify three principles of Buddhism; Buddha the teacher, Dharma and Sangha (the Buddhist order). Near Chakdara Bridge there are ruins of the Hindu Shahi Period and stupas at Haibatgram, Top Dara and Landakai."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Churchill Picket"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/churchpill"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  This small picket on a hill top is famous, as Sir Winston Churchill, in 1895, when he was a lieutenant and was accompanying Malakand Field Force, spent a week in this picket, when this place was surrounded by a Lashkar of local tribesmen.Close to the Chakdara Fort, a picket crowns the hillock towards the west. This is known as the Churchill Picket because Winston Churchill came here during the Pathan Revolt of 1879. This place was used by him for sending reports. He was then a war correspondent. KPK Pakistan "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

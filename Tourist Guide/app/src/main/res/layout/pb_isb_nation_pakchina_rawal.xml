@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideInset"
+    android:scrollIndicators="top|bottom">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="National Monument Islamabad"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/nationalmonumentpakistan"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  The Pakistan Monument in Islamabad, Pakistan, is a national landmark speaking to the country’s four areas and three domains. After an opposition among numerous prestigious engineers, Arif Masood’s arrangement was chosen for the last plan. The sprouting blossom state of the landmark speaks to Pakistan’s advancement as a quickly creating nation. The four fundamental petals of the landmark speak to the four regions (Balochistan, Khyber-Pakhtunkhwa, Punjab, and Sindh), while the three littler petals speak to the three domains (Gilgit-Baltistan, Azad Kashmir and the Federally Administered Tribal Areas). The Monument has been intended to mirror the way of life and human progress of the nation and delineates the narrative of the Pakistan Movement, devoted to the individuals who yielded themselves for future eras.  From air the landmark resembles a star (focus) and a sickle moon (shaped by dividers framing the petals), these speak to the star and bow on Pakistan’s banner. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pak-China Friendship Centre"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view1"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading1"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/pakchinafriendship"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="  Pakistan-China Friendship Center is a workmanship, meeting and display focus in Islamabad, Pakistan.It is created with the assistance of China–Pakistan relations. Its development was begun in April 2005 when the Premier of the State Council of the People’s Republic of China Wen Jiabao went by Pakistan. It was introduced on December 18, 2010 by the Pakistani Prime Minister Yousaf Raza Gillani and Chinese Premier Wen Jiabao. Presently it is running by the Ministry of Culture.  center was begun working in April 2005 with the assistance of People’s Republic of China, 12 section of land area was allocated by Capital Development Authority (CDA) in 2004 for the inside. Its around expense on development is Rs. 3 billion (£35 million), includes on an amphitheater with 800 seats, gathering rooms, moving corridors, display and craftsmanship focus. Focus’ outline was made by China IPPR International Engineering Corporation and developed by Shanghai Group. Eight gathering corridors with 200-250 seats, 105 private rooms and three moving lobbies are likewise being developed now.[5] In February 2013 CDA chose to build up a cutting edge present day silver screen lobby at the middle which will present the Bollywood and Hollywood movies. "
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/main_heading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rawal Lake"
+                android:textSize="25sp"
+                android:gravity="center"
+                />
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/image_view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_heading2"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:background="@drawable/rawallake"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/image_view2"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:text="Rawal Lake in Pakistan is a simulated store that gives the water needs to the urban communities of Rawalpindi and Islamabad. Korang River alongside some other little streams originating from Margalla Hills have been set to frame this fake lake which covers a zone of 8.8 km². Korang River is the outlet stream of Rawal Dam. Rawal Lake is situated inside of a segregated area of the Village Malpur, Bani Gala and Margalla Hills National Park.  The territory around the lake has been planted with blooming trees and laid out with patio nurseries, outing spots, and detached ways. The terraced garden and the lake are utilized for picnics, angling and drifting. The most elevated point in the greenery enclosure offers an all encompassing perspective of the lake, Margalla and Murree slopes, Rawalpindi and Islamabad."
+                    android:textSize="18sp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
